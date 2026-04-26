@@ -33,7 +33,7 @@ Requirements:
 If you use the `skills` CLI, install it with:
 
 ```bash
-npx skills add Zhangxuan185/paper-source-finder-skill@paper-source-finder
+npx skills add Ricardo-Vae/paper-source-finder-skill@paper-source-finder
 ```
 
 If you use Codex's local `skill-installer` helper, replace
@@ -42,7 +42,7 @@ machine:
 
 ```bash
 python /path/to/install-skill-from-github.py \
-  --repo Zhangxuan185/paper-source-finder-skill \
+  --repo Ricardo-Vae/paper-source-finder-skill \
   --path . \
   --name paper-source-finder \
   --dest ~/.codex/skills
