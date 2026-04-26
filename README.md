@@ -30,8 +30,18 @@ Requirements:
 
 ## Install From GitHub
 
+If you use the `skills` CLI, install it with:
+
 ```bash
-python /mnt/c/Users/DELL/.codex/skills/.system/skill-installer/scripts/install-skill-from-github.py \
+npx skills add Zhangxuan185/paper-source-finder-skill@paper-source-finder
+```
+
+If you use Codex's local `skill-installer` helper, replace
+`/path/to/install-skill-from-github.py` with the helper path on your own
+machine:
+
+```bash
+python /path/to/install-skill-from-github.py \
   --repo Zhangxuan185/paper-source-finder-skill \
   --path . \
   --name paper-source-finder \
