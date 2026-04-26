@@ -1,0 +1,7 @@
+interface:
+  display_name: "Paper Source Finder"
+  short_description: "Find papers, verify publication type, check venue ranking, and download accessible PDFs."
+  default_prompt: "Use $paper-source-finder to search a topic, verify whether each result is a journal paper, conference paper, or preprint, apply venue-ranking filters if needed, and return structured results with source links."
+
+policy:
+  allow_implicit_invocation: false
